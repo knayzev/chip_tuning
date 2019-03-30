@@ -1,4 +1,132 @@
-.bg_image_about_us {
-    background: url(/img/bg_about_us.png) no-repeat;
+.bg_image_important {
+    background: url(/img/img_warning.jpg) no-repeat;
     background-size: cover;
+}
+
+.headline_content {
+    font-size: 50px;
+    font-weight: 550;
+    color: #f47621;
+    padding: 0px 0px 25px;
+}
+
+
+.headline_content::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-bottom: 1px solid #f47621;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.box_step {
+    padding: 25px 25px 25px;
+    background: rgb(238, 174, 202);
+    background: rgb(238, 233, 174);
+    background: -moz-linear-gradient(180deg, rgba(238, 233, 174, 0) 0%, rgba(255, 171, 0, 0.05085784313725494) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(238, 233, 174, 0) 0%, rgba(255, 171, 0, 0.05085784313725494) 100%);
+    background: linear-gradient(180deg, rgba(238, 233, 174, 0) 0%, rgba(255, 171, 0, 0.05085784313725494) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eee9ae", endColorstr="#ffab00", GradientType=1);
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.014);
+        transition: 0.4s;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        -webkit-transition: all 0.2s ease-out;        
+         
+    }
+}
+
+
+
+.headline_icon {
+    padding: 0px 0px 15px;
+}
+
+.headline_step {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px 0px 10px;
+}
+
+.box_step_text {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 350;
+}
+
+.selected_text_step {
+    color: #f47621;
+    font-weight: 550;
+}
+
+
+.feedback_box_important {
+    padding: 75px 0px;
+}
+
+.headline_feedback_important::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-bottom: 1px solid #f47621;
+    width: 50px;
+    margin-top: 0px;
+    margin-left: 35px;
+}
+
+.headline_feedback_important {
+    font-size: 36px;
+    color: #f47621;
+    font-weight: 550;
+}
+
+.feedback_info {
+    color: #fff;
+    font-size: 16px;
+    width: 470px;
+    display: inline-block;    
+    
+}
+
+
+.feedback_important {
+    padding: 0px;   
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    @media screen and (max-width: 618px) {
+        display: block;
+        text-align: left;
+        margin-top: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+
+        @media screen and (max-width: 1200px) {
+            font-size: 12px;
+            padding: 10px 15px;
+
+        }
+    }
+
+}
+
+.feedback_link_modal {
+    border: 1px solid #f47621;
+    padding: 10px 25px;
+
+    &:hover {
+        background-color: #f4752118;
+        transition: 0.3s;
+    }
 }

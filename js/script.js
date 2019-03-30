@@ -4,8 +4,6 @@ window.onload = function() {
     // do something…
   })
   
-$('#example').popover(options)
-
 
 $(document).ready(function() {
   console.log('123');
@@ -46,7 +44,4 @@ $(document).ready(function() {
     }
   })
 
-});
-
-});
-
+})};

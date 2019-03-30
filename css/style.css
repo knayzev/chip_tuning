@@ -399,21 +399,16 @@ input[type="search"] {
   background: url(/img/bg_about_us.png) no-repeat;
   background-size: cover; }
 
-.bg_info_about_us {
+.bg_info_content {
   padding: 50px 0px 50px; }
 
-.headline_about_us {
+.headline_content {
   font-size: 50px;
   font-weight: 550;
   color: #f47621;
   padding: 0px 0px 25px; }
 
-.line_from_the_heading {
-  border: 1px solid #f47621;
-  width: 50px;
-  margin-top: -25px; }
-
-.headline_about_us::after {
+.headline_content::after {
   content: '';
   position: absolute;
   width: 35px;
@@ -479,3 +474,252 @@ input[type="search"] {
 
 .selected_text {
   font-weight: 550; }
+
+.bg_image_important {
+  background: url(/img/img_warning.jpg) no-repeat;
+  background-size: cover; }
+
+.headline_content {
+  font-size: 50px;
+  font-weight: 550;
+  color: #f47621;
+  padding: 0px 0px 25px; }
+
+.headline_content::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-bottom: 1px solid #f47621;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 35px; }
+
+.box_step {
+  padding: 25px 25px 25px;
+  background: #eeaeca;
+  background: #eee9ae;
+  background: -moz-linear-gradient(180deg, rgba(238, 233, 174, 0) 0%, rgba(255, 171, 0, 0.0508578) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(238, 233, 174, 0) 0%, rgba(255, 171, 0, 0.0508578) 100%);
+  background: linear-gradient(180deg, rgba(238, 233, 174, 0) 0%, rgba(255, 171, 0, 0.0508578) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eee9ae", endColorstr="#ffab00", GradientType=1); }
+  .box_step:hover {
+    background-color: rgba(255, 255, 255, 0.014);
+    transition: 0.4s;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out; }
+
+.headline_icon {
+  padding: 0px 0px 15px; }
+
+.headline_step {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0px 0px 10px; }
+
+.box_step_text {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 350; }
+
+.selected_text_step {
+  color: #f47621;
+  font-weight: 550; }
+
+.feedback_box_important {
+  padding: 75px 0px; }
+
+.headline_feedback_important::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-bottom: 1px solid #f47621;
+  width: 50px;
+  margin-top: 0px;
+  margin-left: 35px; }
+
+.headline_feedback_important {
+  font-size: 36px;
+  color: #f47621;
+  font-weight: 550; }
+
+.feedback_info {
+  color: #fff;
+  font-size: 16px;
+  width: 470px;
+  display: inline-block; }
+
+.feedback_important {
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  display: inline-block; }
+  @media screen and (max-width: 618px) {
+    .feedback_important {
+      display: block;
+      text-align: left;
+      margin-top: 25px; } }
+  .feedback_important a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; }
+    @media screen and (max-width: 1200px) {
+      .feedback_important a {
+        font-size: 12px;
+        padding: 10px 15px; } }
+
+.feedback_link_modal {
+  border: 1px solid #f47621;
+  padding: 10px 25px; }
+  .feedback_link_modal:hover {
+    background-color: #f4752118;
+    transition: 0.3s; }
+
+/* Modal Window */
+.modal {
+  z-index: 100001; }
+
+.modal-dialog {
+  max-width: 1400px; }
+
+.modal .custom-control-label a {
+  text-decoration: underline; }
+
+.modal .custom-control-label a:hover {
+  text-decoration: none; }
+
+.modal-header {
+  border-bottom: none;
+  background-color: #ffffff;
+  color: #fff;
+  border-top: 15px solid #50b3ff; }
+
+.modal-footer {
+  justify-content: flex-start;
+  border-top: none;
+  padding: 0px 45px 75px; }
+  @media screen and (max-width: 450px) {
+    .modal-footer {
+      padding: 0px 35px 35px; } }
+
+.modal-content {
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 0;
+  border: none; }
+
+.form-control-sm {
+  height: 35px;
+  border: transparent;
+  border-radius: 0; }
+
+.modal-content .form-control {
+  background-color: transparent;
+  border-bottom: 1px solid #b6b6b6;
+  color: #333333;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 10px; }
+  .modal-content .form-control:focus {
+    background-color: #f5f5f5;
+    box-shadow: none; }
+
+.modal-content .form-control option {
+  color: #000; }
+
+.modal-content .custom-control-label::before {
+  background-color: transparent;
+  border: 1px solid #3f3f3f; }
+
+.modal-content .custom-control-input:checked ~ .custom-control-label::before {
+  color: #3f3f3f;
+  background-color: #3f3f3f; }
+
+.modal-header-feedback {
+  padding: 0px; }
+
+.modal-header {
+  position: relative;
+  display: block;
+  border-radius: 0;
+  padding: 45px; }
+
+.custom-control-label::after {
+  cursor: pointer; }
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0;
+  padding: 0; }
+
+.custom-control-checkbox {
+  padding-left: 0.9rem;
+  cursor: pointer; }
+
+.modal-title {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 200;
+  color: #000; }
+
+@media screen and (max-width: 450px) {
+  .modal-header {
+    padding: 35px 25px 15px; } }
+
+.modal-body {
+  padding: 0px 45px 25px;
+  color: #000; }
+  @media screen and (max-width: 450px) {
+    .modal-body {
+      padding: 0px 25px 15px; } }
+
+.modal-header p {
+  font-size: 18;
+  line-height: 1.8;
+  color: #000; }
+
+.modal-header .close {
+  position: absolute;
+  right: 2rem;
+  top: 0;
+  font-size: 2.5rem;
+  font-weight: 100;
+  opacity: 1;
+  line-height: inherit;
+  padding: 1rem;
+  margin: 0; }
+  @media screen and (max-width: 320px) {
+    .modal-header .close {
+      margin-right: -25px; } }
+
+input ~ label[for="soglasie"] {
+  width: 100%;
+  font-size: 16px;
+  margin: 25px 0px 0px 10px;
+  padding: 0px; }
+
+input ~ label[for="sogl"] {
+  width: 100%;
+  font-size: 16px;
+  margin: 10px 0px 0px 10px;
+  padding: 0px; }
+
+.button__to__send_zayavka__formmodal {
+  background-color: #50b3ff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 12px 45px; }
+  .button__to__send_zayavka__formmodal:hover {
+    background-color: #62b9fc; }
+  .button__to__send_zayavka__formmodal:active {
+    background-color: #3987c2; }
+  @media screen and (max-width: 450px) {
+    .button__to__send_zayavka__formmodal {
+      padding: 15px; } }

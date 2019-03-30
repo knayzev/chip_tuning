@@ -3,24 +3,20 @@
     background-size: cover;
 }
 
-.bg_info_about_us{
+.bg_info_content{
 padding: 50px 0px 50px;
 }
 
-.headline_about_us{
+.headline_content{
     font-size: 50px;
     font-weight: 550;
     color: #f47621;  
     padding: 0px 0px 25px;
 }
 
-.line_from_the_heading{
-    border: 1px solid #f47621;
-    width: 50px;
-    margin-top: -25px;
-}
 
-.headline_about_us::after {
+
+.headline_content::after {
     content: '';
     position: absolute;
     width: 35px;
