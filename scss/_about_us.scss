@@ -1,0 +1,101 @@
+.bg_image_about_us {
+    background: url(/img/bg_about_us.png) no-repeat;
+    background-size: cover;
+}
+
+.bg_info_about_us{
+padding: 50px 0px 50px;
+}
+
+.headline_about_us{
+    font-size: 50px;
+    font-weight: 550;
+    color: #f47621;  
+    padding: 0px 0px 25px;
+}
+
+.line_from_the_heading{
+    border: 1px solid #f47621;
+    width: 50px;
+    margin-top: -25px;
+}
+
+.headline_about_us::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-bottom: 1px solid #f47621;
+    width: 50px;
+    margin-top: 5px;  
+    margin-left: 35px;
+}
+
+.headline_text_left_column_about_us{
+font-size: 26px;
+color: #000;
+padding: 0px 0px 25px;
+font-weight: 550;
+text-transform: uppercase;
+}
+
+.about_us_text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+.about_us_text_important{
+    font-size: 20px;
+    font-weight: 400;
+    color: #f47621;
+}
+
+
+.right_column_headline_about_us{
+    font-size: 30px;
+    font-weight: 550;
+    color: #f47621;  
+    padding: 0px 0px 10px;
+}
+
+.right_column_headline_about_us::after{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-bottom: 1px solid #f47621;
+    width: 50px;
+    margin-top: -40px;  
+    margin-left: 35px;
+}
+
+.info_tuning_text_right{
+    font-size: 14px;
+    color: #000;
+    font-weight: 450;
+}
+
+
+.about_us_text_step::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: -35px;
+    margin-top: 10px;
+    background: url(/img/orange_box.png) center 0 no-repeat;
+}
+
+.about_us_text_step{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 25px;
+    padding: 0px 0px 15px;    
+}
+
+
+.selected_text{
+    font-weight: 550;
+}
