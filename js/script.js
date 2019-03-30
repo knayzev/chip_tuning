@@ -1,4 +1,11 @@
 // Кнопка поиска
+window.onload = function() {
+  $('#myPopover').on('hidden.bs.popover', function () {
+    // do something…
+  })
+  
+$('#example').popover(options)
+
 
 $(document).ready(function() {
   console.log('123');
@@ -39,6 +46,7 @@ $(document).ready(function() {
     }
   })
 
-
+});
 
 });
+

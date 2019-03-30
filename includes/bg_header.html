@@ -121,14 +121,16 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="configurator">
-                            <div class="headline_configurator d-inline-block">
+                            <div class="headline_configurator">
                                 Конфигуратор тюнинга
                             </div>
-                            <div class="info  d-inline-block">
-                               <a href="">
-                                    <img src="/img/info.png"  alt="">
-                               </a>
+                            <div class="info">
+                                <img src="/img/info.png" class="headline_info" tabindex="0"
+                                    class="btn btn-lg btn-danger" role="button" data-toggle="popover"
+                                    data-trigger="focus" title="Онлайн конфигуратор"
+                                    data-content="Вы можете расчитать мощность вашего авто онлайн, воспользовавшись конфигуратором. Выберите марку, модель, год, и двигатель, конфигуратор покажет вам прирост после чип-тюнинга.">
                             </div>
+
                             <div class="subtitle_configurator">
                                 Расчет увеличение мощности <br> после чип-тюнинга.
                             </div>
@@ -136,46 +138,65 @@
                                 <div class="col-sm-6">
                                     <div class="form-row">
                                         <select>
-                                            <option>Марка</option>
+                                            <option>Марка авто</option>
                                             <option>BMW</option>
-                                            <option>Пункт 2</option>
-
-                                            <option>Пункт 4</option>
-                                            <option>Пункт 5</option>
                                         </select>
                                     </div>
                                     <div class="form-row">
                                         <select>
                                             <option>Модель</option>
-                                            <option>Пункт 1</option>
-                                            <option>Пункт 2</option>
-
-                                            <option>Пункт 4</option>
-                                            <option>Пункт 5</option>
+                                            <option>3 GT-serie</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-row">
                                         <select>
-                                            <option>Год</option>
-                                            <option>Пункт 1</option>
-                                            <option>Пункт 2</option>
+                                            <option>Год выпуска</option>
+                                            <option>2012</option>
 
-                                            <option>Пункт 4</option>
-                                            <option>Пункт 5</option>
                                         </select>
                                     </div>
                                     <div class="form-row">
                                         <select>
                                             <option>Двигатель</option>
-                                            <option>Пункт 1</option>
-                                            <option>Пункт 2</option>
+                                            <option>318d 136 hp</option>
 
-                                            <option>Пункт 4</option>
-                                            <option>Пункт 5</option>
                                         </select>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="configurator_counter">
+                            <div class="row">
+                                <div class="col-sm-3 col-xl-3">
+                                    <div class="counter_before">
+                                        До улучшения:
+                                    </div>
+                                    <div class="item_got">
+                                        136hp
+                                    </div>
+                                    <div class="item_got">
+                                        320 Nm
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-xl-4">
+                                    <div class="counter_before">
+                                        После улучшения:
+                                    </div>
+                                    <div class="item_got_increased">
+                                        190hp
+                                    </div>
+                                    <div class="item_got_increased">
+                                        400nm
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                        <button class="tuning_button">
+                                                <a href="" class="tuning_link_modal">
+                                                    Улучшить!
+                                                </a>
+                                            </button>
                                 </div>
                             </div>
                         </div>
