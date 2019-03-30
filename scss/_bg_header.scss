@@ -16,12 +16,24 @@
     font-weight: 400;
     color: #fff;
     text-decoration: none;
+    @media screen and (max-width: 1199px) {
+        font-size: 16px;       
+     }
+}
+
+.disabled_576{
+    @media screen and (max-width: 576px) {
+        display: none;     
+     }
 }
 
 .consultant_text {
     text-align: right;
     color: #fff;
     font-size: 14px;
+    @media screen and (max-width: 1199px) {
+        font-size: 12px;       
+     }
 }
 
 .adres::before {
@@ -40,6 +52,9 @@
     color: #fff;
     text-align: left;
     margin-top: 15px;
+    @media screen and (max-width: 1199px) {
+        font-size: 14px;       
+     }
 }
 
 .offset-1 {
@@ -51,6 +66,15 @@
     font-weight: 450;
     color: #f47621;
     text-decoration: underline;
+    @media screen and (max-width: 1199px) {
+        font-size: 12px;       
+     }
+}
+
+.disabled{
+    @media screen and (max-width: 1200px) {
+        display: none;
+     }
 }
 
 .time_work::before {
@@ -67,6 +91,7 @@
     font-size: 14px;
     font-weight: 400;
     color: #fff;
+    
 }
 
 .time {
@@ -80,19 +105,23 @@
     float: right;
     border: none;
     background-color: transparent;
+    
 
     a {
         text-decoration: none;
         color: #fff;
         font-size: 16px;
+        @media screen and (max-width: 1200px) {
+            font-size: 12px;
+            padding: 10px 15px;
+         }
     }
 
 }
 
 .feedback_link_modal {
     border: 1px solid #f47621;
-    padding: 10px 25px;
-
+    padding: 10px 25px;    
     &:hover {
         background-color: #f4752118;
         transition: 0.3s;
@@ -110,16 +139,29 @@
     font-size: 50px;
     font-weight: 500;
     color: #fff;
+    @media screen and (max-width: 320px) {
+        font-size: 36px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
 }
 
 .subtitle_left_column {
     font-size: 28px;
     font-weight: 450;
     text-transform: uppercase;
+    @media screen and (max-width: 320px) {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
 }
 
 .bg_left_column {
     padding: 50px 0px;
+    @media screen and (max-width: 320px) {
+        padding: 15px 0px;
+    }
 }
 
 .bold_orange {
@@ -132,6 +174,9 @@
     font-size: 20px;
     color: #fff;
     padding: 10px 0px;
+    @media screen and (max-width: 320px) {
+        font-size: 14px;
+    }
 }
 
 // Configurator
@@ -219,9 +264,23 @@
     height: 45px;
     font-size: 16px;
     width: 300px;
-
+    @media screen and (max-width: 1365px) {
+        width: 250px;
+    }
     @media screen and (max-width: 320px) {
         width: 215px;
+    }
+    @media screen and (max-width: 1199px) {
+        width: 520px;
+    }
+    @media screen and (max-width: 1150px) {
+        width: 320px;
+    }
+    @media screen and (max-width: 768px) {
+        width: 240px;
+    }
+    @media screen and (max-width: 568px) {
+        width: 240px;
     }
 
 }
