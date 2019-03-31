@@ -91,13 +91,13 @@ local_settings.py
 .env
 
 ### Database ###
-db.sqlite3
-*.jpg
-*.png
-*.pdf
-*.docx
-*.doc
-static/ckeditor/
-static/admin/
-*.sqlite3
+# db.sqlite3
+# *.jpg
+# *.png
+# *.pdf
+# *.docx
+# *.doc
+# static/ckeditor/
+# static/admin/
+# *.sqlite3
 node_modules/
