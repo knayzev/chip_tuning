@@ -58,6 +58,9 @@ body {
   @media screen and (max-width: 1199px) {
     .adres {
       font-size: 14px; } }
+  @media screen and (max-width: 576px) {
+    .adres {
+      font-size: 18px; } }
 
 .offset-1 {
   margin-left: 4%; }
@@ -99,6 +102,10 @@ body {
   float: right;
   border: none;
   background-color: transparent; }
+  @media screen and (max-width: 576px) {
+    .feedback {
+      float: left;
+      margin-top: 25px; } }
   .feedback a {
     text-decoration: none;
     color: #fff;
@@ -118,6 +125,14 @@ body {
 .line_white {
   border: 0.5px solid #ffffff44;
   margin-top: 25px; }
+
+.box_info_on_mob {
+  display: none; }
+  @media screen and (max-width: 576px) {
+    .box_info_on_mob {
+      display: block;
+      margin-left: 25px;
+      margin-bottom: 15px; } }
 
 .headline_column_left {
   font-size: 50px;
@@ -477,7 +492,8 @@ input[type="search"] {
 
 .bg_image_important {
   background: url(/img/img_warning.jpg) no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  padding: 50px 0px 50px; }
 
 .headline_content {
   font-size: 50px;
@@ -794,14 +810,28 @@ input[type="search"] {
 .copyright {
   font-size: 12px;
   color: #828386;
-  padding: 15px 0px; }
+  margin-top: 15px; }
+
+.copyright_small_text {
+  font-size: 12px;
+  color: #828386;
+  margin-top: 15px; }
+
+.political {
+  font-size: 12px;
+  color: #828386; }
+  .political a {
+    color: #828386; }
 
 /* Modal Window */
 .modal {
   z-index: 100001; }
 
 .modal-dialog {
-  max-width: 1400px; }
+  max-width: 600px; }
+  @media screen and (max-width: 576px) {
+    .modal-dialog {
+      width: 100; } }
 
 .modal .custom-control-label a {
   text-decoration: underline; }
@@ -812,12 +842,12 @@ input[type="search"] {
 .modal-header {
   border-bottom: none;
   background-color: #ffffff;
-  color: #fff;
-  border-top: 15px solid #50b3ff; }
+  color: #fff; }
 
 .modal-footer {
   justify-content: flex-start;
   border-top: none;
+  background-color: #000;
   padding: 0px 45px 75px; }
   @media screen and (max-width: 450px) {
     .modal-footer {
@@ -836,13 +866,14 @@ input[type="search"] {
 
 .modal-content .form-control {
   background-color: transparent;
-  border-bottom: 1px solid #b6b6b6;
-  color: #333333;
+  border: 1px solid #f18741;
+  border-radius: 12px;
+  color: #fff;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 10px; }
   .modal-content .form-control:focus {
-    background-color: #f5f5f5;
+    background-color: #f5f5f521;
     box-shadow: none; }
 
 .modal-content .form-control option {
@@ -851,6 +882,8 @@ input[type="search"] {
 .modal-content .custom-control-label::before {
   background-color: transparent;
   border: 1px solid #3f3f3f; }
+  .modal-content .custom-control-label::before a {
+    color: #fff; }
 
 .modal-content .custom-control-input:checked ~ .custom-control-label::before {
   color: #3f3f3f;
@@ -870,8 +903,8 @@ input[type="search"] {
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 0;
-  padding: 0; }
+  margin-left: -13px;
+  margin-top: 15px; }
 
 .custom-control-checkbox {
   padding-left: 0.9rem;
@@ -880,24 +913,27 @@ input[type="checkbox"] {
 .modal-title {
   margin-bottom: 10px;
   font-size: 28px;
-  font-weight: 200;
-  color: #000; }
+  font-weight: 400;
+  color: #fff; }
 
-@media screen and (max-width: 450px) {
-  .modal-header {
-    padding: 35px 25px 15px; } }
+.modal-header {
+  background-color: #000000; }
+  @media screen and (max-width: 450px) {
+    .modal-header {
+      padding: 35px 25px 15px; } }
 
 .modal-body {
+  background-color: #000000;
   padding: 0px 45px 25px;
-  color: #000; }
+  color: #b96228; }
   @media screen and (max-width: 450px) {
     .modal-body {
       padding: 0px 25px 15px; } }
 
 .modal-header p {
-  font-size: 18;
-  line-height: 1.8;
-  color: #000; }
+  font-size: 20px;
+  line-height: 1.4;
+  color: #b96228; }
 
 .modal-header .close {
   position: absolute;
@@ -926,7 +962,7 @@ input ~ label[for="sogl"] {
   padding: 0px; }
 
 .button__to__send_zayavka__formmodal {
-  background-color: #50b3ff;
+  background-color: #f47621;
   border: none;
   color: #fff;
   font-size: 16px;
@@ -935,9 +971,14 @@ input ~ label[for="sogl"] {
   text-transform: uppercase;
   padding: 12px 45px; }
   .button__to__send_zayavka__formmodal:hover {
-    background-color: #62b9fc; }
+    background-color: #f18741; }
   .button__to__send_zayavka__formmodal:active {
-    background-color: #3987c2; }
+    background-color: #b96228; }
   @media screen and (max-width: 450px) {
     .button__to__send_zayavka__formmodal {
       padding: 15px; } }
+
+.modal__title__small__text {
+  font-size: 16px;
+  font-weight: 350;
+  color: #fff; }

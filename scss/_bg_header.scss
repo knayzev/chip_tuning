@@ -55,6 +55,10 @@
     @media screen and (max-width: 1199px) {
         font-size: 14px;       
      }
+     @media screen and (max-width: 576px) {
+       font-size: 18px;
+        
+       }
 }
 
 .offset-1 {
@@ -105,7 +109,10 @@
     float: right;
     border: none;
     background-color: transparent;
-    
+    @media screen and (max-width: 576px) {
+       float: left;
+       margin-top: 25px;
+     }
 
     a {
         text-decoration: none;
@@ -134,6 +141,17 @@
 }
 
 // info + configurator
+
+.box_info_on_mob{
+    display: none;
+    @media screen and (max-width: 576px) {
+     display: block;
+     margin-left: 25px;
+     margin-bottom: 15px; 
+     
+    }
+}
+
 
 .headline_column_left {
     font-size: 50px;
