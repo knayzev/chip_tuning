@@ -1,16 +1,9 @@
-// Кнопка поиска
+
 window.onload = function() {
   $('#myPopover').on('hidden.bs.popover', function () {
     // do something…
-  })
-  
+  }) 
 
-$(document).ready(function() {
-  console.log('123');
-
-  $('[data-fancybox="gallery"]').fancybox({
-    // Options will go here
-  });
 
   $('.smoothScroll').on('click',function (e) {
     e.preventDefault();
@@ -43,5 +36,4 @@ $(document).ready(function() {
       }
     }
   })
-
-})};
+});}

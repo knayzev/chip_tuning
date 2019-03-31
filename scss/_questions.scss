@@ -1,0 +1,112 @@
+.bg_image_qustions{
+    padding: 50px 0px 50px;
+}
+
+.headline_content_questions{
+    font-size: 36px;
+    font-weight: 550;
+    color: #f47621;  
+    padding: 0px 0px 25px;
+}
+
+
+
+.headline_content_questions::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-bottom: 1px solid #f47621;
+    width: 50px;
+    margin-top: 5px;  
+    margin-left: 35px;
+}
+
+.accordion .btn{
+    font-size: 20px;
+    text-decoration: none;
+    color: #f47621;
+    @media screen and (max-width: 1199px) {
+        font-size: 14px;       
+     }
+    @media screen and (max-width: 768px) {
+        font-size: 12px;       
+     }
+    &:hover{
+        color: #fc9551;
+    }
+    
+}
+
+.accordion{
+    border-radius: 12px;
+}
+
+.card{
+    border-radius: 12px;
+}
+
+.card-header{  
+    background: rgb(64, 64, 64);
+    background: -moz-linear-gradient(180deg, rgba(64, 64, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(64, 64, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(64, 64, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#404040", endColorstr="#000000", GradientType=1);
+   
+    }
+
+
+.card-body{
+    background: rgb(64, 64, 64);
+    background: -moz-linear-gradient(180deg, rgba(64, 64, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(64, 64, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(64, 64, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#404040", endColorstr="#000000", GradientType=1);
+    border: 1px solid #f47621;
+    color: #fff;
+    font-size: 18px;  
+    line-height: 1.6; 
+
+}
+
+.box_feedback_questions{
+    text-align: center;
+}
+
+
+.button_for_text_head{
+    font-size: 24px;  
+    padding: 35px 0px 0px; 
+}
+.use_the_form{
+    font-size: 18px;
+    font-weight: 450;
+    margin-top: 15px;      
+}
+
+.feedback_questions {
+    padding: 0px;
+    margin-top: 30px;    
+    border: none;   
+    background-color: transparent;
+    @media screen and (max-width: 1199px) {       
+       float: none;    
+    } 
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+    }
+
+}
+
+.feedback_link_modal_questions {
+    background-color: #f47621;;
+    padding: 10px 45px;
+    text-align: center;
+
+    &:hover {
+        background-color: #d37231;
+        transition: 0.3s;
+    }
+}

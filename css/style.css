@@ -611,6 +611,191 @@ input[type="search"] {
     background-color: #f4752118;
     transition: 0.3s; }
 
+.bg_image_qustions {
+  padding: 50px 0px 50px; }
+
+.headline_content_questions {
+  font-size: 36px;
+  font-weight: 550;
+  color: #f47621;
+  padding: 0px 0px 25px; }
+
+.headline_content_questions::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-bottom: 1px solid #f47621;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 35px; }
+
+.accordion .btn {
+  font-size: 20px;
+  text-decoration: none;
+  color: #f47621; }
+  @media screen and (max-width: 1199px) {
+    .accordion .btn {
+      font-size: 14px; } }
+  @media screen and (max-width: 768px) {
+    .accordion .btn {
+      font-size: 12px; } }
+  .accordion .btn:hover {
+    color: #fc9551; }
+
+.accordion {
+  border-radius: 12px; }
+
+.card {
+  border-radius: 12px; }
+
+.card-header {
+  background: #404040;
+  background: -moz-linear-gradient(180deg, #404040 0%, black 100%);
+  background: -webkit-linear-gradient(180deg, #404040 0%, black 100%);
+  background: linear-gradient(180deg, #404040 0%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#404040", endColorstr="#000000", GradientType=1); }
+
+.card-body {
+  background: #404040;
+  background: -moz-linear-gradient(180deg, #404040 0%, black 100%);
+  background: -webkit-linear-gradient(180deg, #404040 0%, black 100%);
+  background: linear-gradient(180deg, #404040 0%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#404040", endColorstr="#000000", GradientType=1);
+  border: 1px solid #f47621;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.6; }
+
+.box_feedback_questions {
+  text-align: center; }
+
+.button_for_text_head {
+  font-size: 24px;
+  padding: 35px 0px 0px; }
+
+.use_the_form {
+  font-size: 18px;
+  font-weight: 450;
+  margin-top: 15px; }
+
+.feedback_questions {
+  padding: 0px;
+  margin-top: 30px;
+  border: none;
+  background-color: transparent; }
+  @media screen and (max-width: 1199px) {
+    .feedback_questions {
+      float: none; } }
+  .feedback_questions a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px; }
+
+.feedback_link_modal_questions {
+  background-color: #f47621;
+  padding: 10px 45px;
+  text-align: center; }
+  .feedback_link_modal_questions:hover {
+    background-color: #d37231;
+    transition: 0.3s; }
+
+.bg_image_contacts {
+  background: url(/img/img_contact.png) no-repeat;
+  background-size: cover;
+  padding: 50px 0px 50px; }
+
+.headline_content_contacts {
+  font-size: 36px;
+  font-weight: 550;
+  color: #f47621;
+  padding: 0px 0px 25px; }
+
+.headline_content_contacts::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-bottom: 1px solid #f47621;
+  width: 50px;
+  margin-top: -3px;
+  margin-left: 35px; }
+
+.head_number_contacts {
+  font-size: 18px;
+  font-weight: 450;
+  color: #fff;
+  padding: 0px 0px 25px; }
+
+.number_contacts {
+  font-size: 28px;
+  font-weight: 450;
+  color: #fff; }
+  .number_contacts a {
+    text-decoration: none;
+    color: #fff; }
+    .number_contacts a:hover {
+      color: #f47621;
+      transition: 0.3s; }
+
+.consultant_text_contacts {
+  font-size: 16px;
+  color: #f47621; }
+
+.line_contacts {
+  border: 0.5px solid rgba(255, 255, 255, 0.281);
+  margin-top: 15px;
+  width: 100px;
+  margin-bottom: 15px; }
+
+.headline_adres {
+  font-size: 18px;
+  font-weight: 350;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 25px; }
+
+.adres_contacts {
+  font-size: 18px;
+  font-weight: 450;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 35px; }
+
+.social_network {
+  margin-top: 25px;
+  width: 180px;
+  display: inline-block;
+  margin-right: -25px; }
+  .social_network a {
+    border: 1px solid #f47621;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px; }
+    .social_network a:hover {
+      background-color: #f47621;
+      transition: 0.4s; }
+
+.inst_icon {
+  margin-right: 10px;
+  margin-top: -3px; }
+
+@media screen and (max-width: 1200px) {
+  .map_contacts {
+    margin-top: 35px; } }
+
+.bg_basement {
+  background-color: #35363a;
+  padding: 35px;
+  text-align: center; }
+
+.copyright {
+  font-size: 12px;
+  color: #828386;
+  padding: 15px 0px; }
+
 /* Modal Window */
 .modal {
   z-index: 100001; }
