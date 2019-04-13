@@ -21,6 +21,9 @@
     width: 50px;
     margin-top: 5px;
     margin-left: 35px;
+    @media screen and (max-width: 576px) {
+        display: none;  
+      }
 }
 
 .box_step {
@@ -85,6 +88,9 @@
     width: 50px;
     margin-top: 0px;
     margin-left: 35px;
+    @media screen and (max-width: 576px) {
+        display: none;  
+      }
 }
 
 .headline_feedback_important {

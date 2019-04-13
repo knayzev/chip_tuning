@@ -1,5 +1,10 @@
-.bg_image_qustions{
-    padding: 50px 0px 50px;
+.bg_image_questions{
+    background: url(/img/img_questions.png) no-repeat;
+    background-size: initial;
+    padding: 50px 0px 65px;
+    @media screen and (max-width: 576px) {
+        background-size: initial; 
+      }
 }
 
 .headline_content_questions{
@@ -20,6 +25,9 @@
     width: 50px;
     margin-top: 5px;  
     margin-left: 35px;
+    @media screen and (max-width: 576px) {
+        display: none;  
+      }
 }
 
 .accordion .btn{
@@ -38,12 +46,17 @@
     
 }
 
-.accordion{
-    border-radius: 12px;
+.card{
+    cursor: pointer;
+    &:hover{
+        
+    }
 }
 
-.card{
-    border-radius: 12px;
+.accordion .btn{
+    @media screen and (max-width: 768px) {
+        font-size: 10px;       
+     }
 }
 
 .card-header{  
@@ -52,7 +65,9 @@
     background: -webkit-linear-gradient(180deg, rgba(64, 64, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
     background: linear-gradient(180deg, rgba(64, 64, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#404040", endColorstr="#000000", GradientType=1);
-   
+    @media screen and (max-width: 768px) {
+        padding: 5px;      
+     }
     }
 
 
@@ -64,8 +79,10 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#404040", endColorstr="#000000", GradientType=1);
     border: 1px solid #f47621;
     color: #fff;
-    font-size: 18px;  
-    line-height: 1.6; 
+    font-size: 16px;  
+    font-weight: 350;
+    line-height: 1.8; 
+    padding: 15px 25px;    
 
 }
 
@@ -77,11 +94,13 @@
 .button_for_text_head{
     font-size: 24px;  
     padding: 35px 0px 0px; 
+    color: #fff;
 }
 .use_the_form{
     font-size: 18px;
     font-weight: 450;
-    margin-top: 15px;      
+    margin-top: 15px;    
+    color: #fff;  
 }
 
 .feedback_questions {
@@ -109,4 +128,12 @@
         background-color: #d37231;
         transition: 0.3s;
     }
+}   
+
+
+.text_test{
+    font-size: 26px;
+    line-height: 1.8;
+    font-weight: 450;
+    color: rgba(41, 88, 175, 0.993);
 }

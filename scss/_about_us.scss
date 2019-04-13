@@ -25,26 +25,44 @@ padding: 50px 0px 50px;
     width: 50px;
     margin-top: 5px;  
     margin-left: 35px;
+    @media screen and (max-width: 576px) {
+       display: none;  
+     }
+}
+
+.left_column_about_us{
+    padding: 35px 45px;
+    background-color: #f47621;
+    &:hover{
+        box-shadow: 0 2px 18px rgba(27, 27, 27, 0.03);
+        transition: 0.2s;
+        -moz-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        -webkit-transition: all 0.2s ease-out;
+        -webkit-transform: scale(1.01);
+        -moz-transform: scale(1.01);
+        -o-transform: scale(1.01);
+    }
 }
 
 .headline_text_left_column_about_us{
 font-size: 26px;
-color: #000;
+color: #fff;
 padding: 0px 0px 25px;
 font-weight: 550;
 text-transform: uppercase;
 }
 
 .about_us_text{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    color: #000;
+    color: #fff;
 }
 
 .about_us_text_important{
     font-size: 20px;
     font-weight: 400;
-    color: #f47621;
+    color: #000;
 }
 
 
@@ -62,13 +80,16 @@ text-transform: uppercase;
     height: 35px;
     border-bottom: 1px solid #f47621;
     width: 50px;
-    margin-top: -40px;  
+    margin-top: -6px;  
     margin-left: 35px;
+    @media screen and (max-width: 576px) {
+        display: none;  
+      }
 }
 
 .info_tuning_text_right{
     font-size: 14px;
-    color: #000;
+    color: #fff;
     font-weight: 450;
 }
 
@@ -79,12 +100,12 @@ text-transform: uppercase;
     width: 35px;
     height: 35px;
     margin-left: -35px;
-    margin-top: 10px;
+    margin-top: 7px;
     background: url(/img/orange_box.png) center 0 no-repeat;
 }
 
 .about_us_text_step{
-    font-size: 20px;
+    font-size:  18px;
     font-weight: 400;
     color: #000;
     margin-left: 25px;

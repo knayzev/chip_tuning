@@ -23,6 +23,9 @@
     width: 50px;
     margin-top: -3px;  
     margin-left: 35px;
+    @media screen and (max-width: 576px) {
+        display: none;  
+      }
 }
 
 .head_number_contacts{
